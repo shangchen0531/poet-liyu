@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: alternative_font;
+	src: url("font/华文行楷.ttf");
+}
+
+body {
+	font-family: serif;
+	font-size: small;
+	background-color: rgb(152,176,211);
+}
+
+#header {
+	background-color: #f6f6f6;
+	margin: 0px 10px 0px 10px;
+	height: 108px;
+}
+
+audio {
+	position: fixed;
+	top: 76px;
+	left: 18px;
+}
+
+#workset {
+	position: relative;
+	left: 30%;
+}
+
+#flower1 {
+	float: right;
+}
+
+#flower2 {
+	float: left;
+}
+
+#container {
+	display: table;
+	border-spacing: 10px;
+}
+#tablerow {
+	display: table-row;
+}
+
+#resume {
+	display: table-cell;
+	width: 20%;
+	background-color: rgb(255,245,224);
+    vertical-align: top;
+	text-align: center;
+	line-height: 1.4;
+	font-size: 110%;
+}
+
+#resume p {
+	text-align: left;
+	padding: 10px;
+}
+
+
+#library {
+	display: table-cell;
+	width: 60%;
+	background-color: rgb(255,245,224);
+	vertical-align: top;
+}
+
+#library h2 {
+	text-align: center;
+}
+
+#sidebar {
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	background-color: rgb(255,245,224);
+	font-size: 110%;
+	font-weight: bold;
+	padding: 10px;
+}
+
+
+fieldset img {
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+fieldset {
+	margin: 20px;
+}
+
+legend {
+	font-family: 华文行楷, alternative_font, serif;
+	font-size: 200%;
+}
+
+#sidebar a {
+	text-decoration: none;
+	font-size: 110%;
+}
+
+#sidebar a:hover {
+	color: rgb(230,28,100);
+}
+
+#sidebar #lalala, #thanks {
+	padding: 0px 5px;
+}
+
+#footer {
+	background-color: #f6f6f6;
+	text-align: center;
+	padding: 10px;
+	line-height: 1.5;
+	margin: 0px 10px;
+	font-size: 90%;
+}
+
+#library img {
+	box-shadow: 2px 2px 2px #000;
+}
+#library img:hover {
+	width: 120px;
+	height: 187px;
+}
+
+#navigation {
+	background-color: #f6f6f6;
+	margin: 10px 10px 0px 10px;
+}
+
+#navigation a {
+	text-decoration: none;
+}
+#navigation ul {
+	margin: 0px;
+	padding: 5px;
+	list-style-type: none;
+}
+#navigation ul li {
+	display: inline;
+	font-size: 120%;
+	padding: 5px 10px;
+}
+
+#goback {
+	position: fixed;
+	right: 5px;
+	top: 300px;
+}
+
+#goback a{
+	text-decoration: none;
+	font-size: 200%;
+	color: orangered;
+}
+
+li:hover {
+	background-color: pink;
+}
+
